@@ -25,7 +25,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
 }
 
 #nav {
@@ -33,6 +32,9 @@
   background-color: beige;
   display: flex;
   justify-content: flex-start;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 #nav a {
