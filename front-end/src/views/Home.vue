@@ -21,6 +21,18 @@
             </a>
           </div>
         </div>
+        <div id="ad-quote">
+          <p>
+            What a fun adventure! My 15 year old enjoyed it almost as much as my kinder age relatives.
+            <br/>
+            The chapters are short enough for a new reader to chapter books to feel successful and the 
+            content is fun enough to appeal to all ages.
+            <br/>
+            Warning: if you don’t have small children to read this book to at bedtime, 
+            it may induce the desire to share it with all of the youngsters in your life.
+          </p>
+          <p class="attribution">- Amy, Colorado USA</p>
+        </div>
       </div>
     </div>
 
@@ -44,7 +56,7 @@ export default {
 }
 
 #amazon-nav {
-  margin: 200px 0;
+  margin-top: 200px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -87,4 +99,22 @@ export default {
   background: #467;
   border: 2px solid #467;
 }
+
+#ad-quote {
+  width: 33%;
+  margin: 20px 100px 20px auto;
+  padding: 50px;
+  background: rgb(245, 245, 220, .3);
+  color: black;
+  font-style: italic;
+}
+
+#ad-quote p {
+  text-align: left;
+}
+
+#ad-quote .attribution {
+  text-align: right;
+}
+
 </style>
