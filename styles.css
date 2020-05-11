@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+#nav {
+  padding: 30px;
+  background-color: beige;
+  display: flex;
+  justify-content: flex-start;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+#nav a {
+  font-weight: bold;
+  color: black;
+  margin-left: 30px;
+}
+
+#nav .facebook-link {
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+#header {
+  padding: 200px 0;
+}
+
+#amazon-nav {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 80px;
+  background-color: #333;
+}
+
+#cover-link {
+  position: relative;
+}
+
+#cover-link a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#cover-link img{
+  width: 400px;
+}
+
+#buy-now p {
+  color: white;
+}
+
+#buy-now h3 {
+  color: beige;
+}
+
+#buy-now a, #buy-now a:visited {
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 3px;
+  transition: .5s;
+}
+
+#buy-now a:hover, #buy-now a:visited:hover {
+  background: #467;
+  border: 2px solid #467;
+}
+
+#ad-quote {
+  width: 33%;
+  margin: 20px 100px 20px auto;
+  padding: 50px;
+  background: rgb(245, 245, 220, .3);
+  color: black;
+  font-style: italic;
+}
+
+#ad-quote p {
+  text-align: left;
+}
+
+#ad-quote .attribution {
+  text-align: right;
+}
