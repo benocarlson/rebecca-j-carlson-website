@@ -104,3 +104,23 @@ body {
 #ad-quote .attribution {
   text-align: right;
 }
+
+#about {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #333;
+  color: beige;
+}
+
+#about-img {
+  width: 50%;
+}
+
+#about-txt {
+  width: 50%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: left;
+}
