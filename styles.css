@@ -20,7 +20,7 @@ body {
 
 #nav {
   padding: 30px;
-  background-color: beige;
+  background-color: #EDE8C9;
   display: flex;
   justify-content: flex-start;
   position: fixed;
@@ -49,7 +49,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
   padding: 80px;
-  background-color: #333;
+  background-color: #2F2E2E;
 }
 
 #cover-link {
@@ -68,17 +68,17 @@ body {
 }
 
 #buy-now p {
-  color: white;
+  color: #FFFCEC;
 }
 
 #buy-now h3 {
-  color: beige;
+  color: #EDE8C9;
 }
 
 #buy-now a, #buy-now a:visited {
-  color: white;
+  color: #FFFCEC;
   text-decoration: none;
-  border: 2px solid white;
+  border: 2px solid #FFFCEC;
   padding: 3px;
   transition: .5s;
   margin: 10px;
@@ -94,7 +94,7 @@ body {
   width: 33%;
   margin: 20px 100px 20px auto;
   padding: 50px;
-  background: rgb(245, 245, 220, .5);
+  background-color: rgb(237, 232, 201, .6);
   color: black;
   font-style: italic;
 }
@@ -112,9 +112,10 @@ body {
   width: 100%;
   justify-content: flex-start;
   align-items: center;
-  background-color: #333;
-  color: beige;
+  background-color: #2F2E2E;
+  color: #EDE8C9;
 }
+
 
 #about-img {
   width: 50%;
@@ -306,4 +307,75 @@ body {
 #footer-links img {
   width: 25px;
   margin-left: 10px;
+}
+
+.off-white {
+  color: #FFFCEC;
+}
+
+.off-white-bg {
+  background-color: #FFFCEC
+}
+
+.cool-tan {
+  color: #ADAA9A;
+}
+.cool-tan-bg {
+  background-color: #ADAA9A;
+}
+
+.cool-brown {
+  color: #5C5A51;
+}
+
+.cool-brown-bg {
+  background-color: #5C5A51;
+}
+
+.dark-brown {
+  color: #2F2E2E;
+}
+
+.dark-brown-bg {
+  background-color: #2F2E2E;
+}
+
+.pale-gold {
+  color: #EDE8C9;
+}
+
+.pale-gold-bg {
+  background-color: #EDE8C9;
+}
+
+.gold {
+  color: #DAD299;
+}
+
+.gold-bg {
+  background-color: #DAD299;
+}
+
+.dark-gold {
+  color: #A39D73;
+}
+
+.dark-gold-bg {
+  background-color: #A39D73;
+}
+
+.golden-brown {
+  color: #6D694D;
+}
+
+.golden-brown-bg {
+  background-color: #6D694D;
+}
+
+.dark-chocolate {
+  color: #373526;
+}
+
+.dark-chocolate-bg {
+  background-color: #373526;
 }
