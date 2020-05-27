@@ -20,7 +20,6 @@ body {
 
 #nav {
   padding: 30px;
-  background-color: #EDE8C9;
   display: flex;
   justify-content: flex-start;
   position: fixed;
@@ -49,7 +48,6 @@ body {
   justify-content: space-evenly;
   align-items: center;
   padding: 80px;
-  background-color: #2F2E2E;
 }
 
 #cover-link {
@@ -112,8 +110,6 @@ body {
   width: 100%;
   justify-content: flex-start;
   align-items: center;
-  background-color: #2F2E2E;
-  color: #EDE8C9;
 }
 
 
@@ -129,7 +125,6 @@ body {
 }
 
 #reviews {
-  background-color: beige;
   margin-top: 100px;
   margin-bottom: 100px;
   padding: 100px;
@@ -159,8 +154,8 @@ body {
 
 .fade-button a, .fade-button a:visited {
   font-style: italic;
-  background-color: #333;
-  color: beige;
+  background-color: #2F2E2E;
+  color: #FFFCEC;
   text-decoration: none;
   transition: .5s;
   padding: 5px;
@@ -175,26 +170,22 @@ body {
 }
 
 #review-buy-now a, #review-buy-now a:visited {
-  color: #333;
+  color: #2F2E2E;
   text-decoration: none;
   font-style: italic;
-  border: 2px solid #333;
+  border: 2px solid #2F2E2E;
   padding: 3px;
   transition: .5s;
 }
 /* TODO: refactor all fading buttons */
 
 #review-buy-now a:hover, #review-buy-now a:visited:hover {
-  background-color: #885;
-  border: 2px solid #885;
-  color: beige;
+  background-color: #6D694D;
+  border: 2px solid #6D694D;
+  color: #FFFCEC;
 }
 
 #events {
-  position: relative;
-}
-
-#side-scroller {
   display: flex;
   flex-wrap: nowrap;
   justify-content: flex-start;
@@ -202,22 +193,32 @@ body {
   flex-direction: column;
 }
 
-.scroll-pane {
+.event {
   width: 100%;
   margin: 50px 0;
   padding: 100px;
-}
-
-#classes {
-  background-color: #442;
 }
 
 #classes p, #classes h4 {
   text-align: left;
 }
 
-#signings {
-  background-color: #885;
+.classes-fade-button {
+  margin: 10px;
+}
+
+.classes-fade-button a, .classes-fade-button a:visited {
+  display: block;
+  background-color: #EDE8C9;
+  color: black;
+  text-decoration: none;
+  transition: .5s;
+  padding: 5px;
+}
+
+.classes-fade-button a:hover, .classes-fade-button a:visited:hover {
+  background-color: black;
+  color: #FFFCEC;
 }
 
 .signings-column h4, .signings-column p {
@@ -242,11 +243,7 @@ body {
 }
 
 #signings a, #signings a:visited {
-  color: black;
-}
-
-#visits {
-  background-color: #333;
+  color: #EDE8C9;
 }
 
 #visits-columns {
@@ -265,20 +262,15 @@ body {
   text-align: left;
 }
 
-.visits-column-2 {
-  color: white;
+.visits-column-1 a, .visits-column-1 a:visited {
+  color: #DAD299;
 }
 
 .visits-column-2 img {
   width: 100%;
 }
 
-#loop {
-  background-color: #432;
-}
-
 #contact {
-  background-color: beige;
   padding: 100px 200px;
 }
 
@@ -312,7 +304,6 @@ body {
 .off-white {
   color: #FFFCEC;
 }
-
 .off-white-bg {
   background-color: #FFFCEC
 }
@@ -327,7 +318,6 @@ body {
 .cool-brown {
   color: #5C5A51;
 }
-
 .cool-brown-bg {
   background-color: #5C5A51;
 }
@@ -335,7 +325,6 @@ body {
 .dark-brown {
   color: #2F2E2E;
 }
-
 .dark-brown-bg {
   background-color: #2F2E2E;
 }
@@ -343,7 +332,6 @@ body {
 .pale-gold {
   color: #EDE8C9;
 }
-
 .pale-gold-bg {
   background-color: #EDE8C9;
 }
@@ -351,7 +339,6 @@ body {
 .gold {
   color: #DAD299;
 }
-
 .gold-bg {
   background-color: #DAD299;
 }
@@ -359,7 +346,6 @@ body {
 .dark-gold {
   color: #A39D73;
 }
-
 .dark-gold-bg {
   background-color: #A39D73;
 }
@@ -367,7 +353,6 @@ body {
 .golden-brown {
   color: #6D694D;
 }
-
 .golden-brown-bg {
   background-color: #6D694D;
 }
@@ -375,7 +360,6 @@ body {
 .dark-chocolate {
   color: #373526;
 }
-
 .dark-chocolate-bg {
   background-color: #373526;
 }
