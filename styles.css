@@ -175,31 +175,77 @@ body {
 }
 
 #reviews {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 100px;
   padding: 100px;
 }
 
 .section-header {
-  margin: 20px;
+  margin-bottom: 50px;
+}
+
+.section-header h2 {
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+.section-header h3 {
+  font-size: 2em;
 }
 
 .review-grid {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-evenly;
+  align-items: top;
 }
 
 .review-grid > div {
   width: 30%;
 }
 
+.review-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.review {
+  font-size: 2em;
+}
+
+.shrunk {
+  font-size: .80em;
+}
+
+#reviews h4 {
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+.review .attribution {
+  margin-top: 1em;
+}
+
+.review-link {
+  margin-bottom: 20px;
+}
+
 #review-cover-link img {
-  width: 100%;
+  width: 75%;
+}
+
+#get-the-book {
+  margin-top: 50px;
+}
+
+#get-the-book h3 {
+  font-size: 2em;
+  font-weight: normal;
 }
 
 .fade-button {
-  margin: 10px;
+  margin: 20px;
 }
 
 .fade-button a, .fade-button a:visited {
@@ -216,7 +262,7 @@ body {
 }
 
 #review-buy-now {
-  margin: 10px;
+  margin: 20px;
 }
 
 #review-buy-now a, #review-buy-now a:visited {
@@ -224,7 +270,7 @@ body {
   text-decoration: none;
   font-style: italic;
   border: 2px solid #2F2E2E;
-  padding: 3px;
+  padding: 5px;
   transition: .5s;
 }
 /* TODO: refactor all fading buttons */
