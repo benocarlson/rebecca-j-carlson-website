@@ -43,6 +43,10 @@ body {
   margin-right: 30px;
 }
 
+.active-nav {
+  text-decoration: underline;
+}
+
 #page-header {
   padding: 200px 0;
 }
