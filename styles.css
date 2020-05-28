@@ -9,14 +9,14 @@ html {
 }
 
 body {
-  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url('images/Emerald-Realms.jpg');
+  background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url('images/Emerald-Realms.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -31,10 +31,11 @@ body {
   z-index: 1;
 }
 
-#nav a {
+#nav a, #nav a:visited {
   font-weight: bold;
   color: black;
   margin-left: 30px;
+  text-decoration: none;
 }
 
 #nav .facebook-link {
@@ -46,8 +47,16 @@ body {
   padding: 200px 0;
 }
 
+#page-header h2 {
+  font-size: 3em;
+}
+
+#page-header h1 {
+  font-size: 4em;
+}
+
 #amazon-nav {
-  margin-top: 200px;
+  margin-top: 100px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -66,25 +75,32 @@ body {
 }
 
 #cover-link img{
-  width: 400px;
+  width: 375px;
+}
+
+#buy-now {
+  margin-left: 50px;
 }
 
 #buy-now p {
   color: #FFFCEC;
+  font-size: 1.5em;
+  margin: 20px;
 }
 
 #buy-now h3 {
   color: #EDE8C9;
+  font-size: 2em;
+  font-weight: normal;
 }
 
 #buy-now a, #buy-now a:visited {
   color: #FFFCEC;
   text-decoration: none;
   border: 2px solid #FFFCEC;
-  padding: 3px;
+  padding: 3px 10px;
   transition: .5s;
   margin: 10px;
-  display: block;
 }
 
 #buy-now a:hover, #buy-now a:visited:hover {
@@ -93,13 +109,16 @@ body {
 }
 
 #ad-quote {
-  width: 33%;
+  width: 40%;
   margin: 20px 100px 20px auto;
   padding: 50px;
   background-color: rgb(237, 232, 201, .6);
   color: black;
   font-style: italic;
+  font-weight: bold;
+  font-size: 1.3em;
 }
+
 
 .review {
   text-align: left;
