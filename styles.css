@@ -405,8 +405,41 @@ body {
   justify-content: space-between;
 }
 
+#contact-links > div {
+  width: 50%;
+}
+
 #contact p {
+  font-size: 2em;
+}
+
+#contact a {
+  display: block;
+  padding: 10px;
+}
+
+#info {
+  margin: 50px 0;
+}
+
+#info p {
   text-align: left;
+}
+
+#subscribe p {
+  text-align: left;
+}
+
+#subscribe a {
+  margin: 0 50px;
+}
+
+#visit-pages a {
+  margin: 0 100px;
+}
+
+.visit-link {
+  margin: 30px 50px;
 }
 
 #footer {
@@ -418,7 +451,6 @@ body {
 }
 
 #footer-links a, #footer-links a:visited {
-  /* color: rgb(0, 0, 0, 0); */
   text-decoration: none;
 }
 
