@@ -322,17 +322,12 @@ body {
   text-align: left;
 }
 
-.classes-fade-button {
-  margin: 50px 0;
+#classes-email {
+  margin-top: 40px;
 }
 
-.classes-fade-button a, .classes-fade-button a:visited {
-  background-color: #EDE8C9;
-  color: black;
-  text-decoration: none;
-  font-size: 1.2em;
-  transition: .5s;
-  padding: 10px 200px;
+#classes-email a, #classes-email a:visited {
+  color: #DAD299;
 }
 
 .classes-fade-button a:hover, .classes-fade-button a:visited:hover {
