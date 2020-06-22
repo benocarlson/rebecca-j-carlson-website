@@ -188,4 +188,23 @@
     #info {
         margin: 50px 0;
     }
+
+    #subscribe a {
+        width: 250px;
+        margin: 0 auto;
+    }
+      
+    #visit-pages a {
+        width: 100px;
+        margin: 0 auto;
+    }
+      
+    .visit-link {
+        margin: 30px 50px;
+    }
+
+    #footer {
+        padding: 10px 100px;
+        margin-bottom: 100px;
+    }
 }

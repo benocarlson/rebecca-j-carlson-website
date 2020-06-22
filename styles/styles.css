@@ -10,7 +10,8 @@ html {
 }
 
 body {
-  background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url('images/Emerald-Realms.jpg');
+  /* FIXME replace relative path with absolute path */
+  background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url('../images/Emerald-Realms.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -245,10 +246,6 @@ body {
   padding: 10px;
 }
 
-#info {
-  margin: 50px 0;
-}
-
 #info p {
   text-align: left;
 }
@@ -257,26 +254,10 @@ body {
   text-align: left;
 }
 
-#subscribe a {
-  width: 250px;
-  margin: 0 auto;
-}
-
-#visit-pages a {
-  width: 100px;
-  margin: 0 auto;
-}
-
-.visit-link {
-  margin: 30px 50px;
-}
-
 #footer {
   font-style: italic;
   display: flex;
   justify-content: space-between;
-  padding: 10px 100px;
-  margin-bottom: 100px;
 }
 
 #footer-links a, #footer-links a:visited {
