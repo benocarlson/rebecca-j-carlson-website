@@ -9,8 +9,7 @@ html {
 }
 
 body {
-  /* FIXME replace relative path with absolute path */
-  background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url('../images/Emerald-Realms.jpg');
+  background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url('/images/Emerald-Realms.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -23,25 +22,24 @@ body {
   text-align: center;
 }
 
-.bg-light {
-  background-color: #EDE8C9 !important;
-}
-
-nav {
-  padding: 30px;
-  justify-content: flex-start;
-  position: fixed !important;
+#nav {
+  padding: 10px;
   width: 100%;
+  position: fixed;
   z-index: 1;
 }
 
-nav a, nav a:visited {
+#nav a, #nav a:visited {
   text-align: left;
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: bold;
-  color: black;
+  color: #555;
   margin-left: 30px;
   text-decoration: none;
+}
+
+#nav a:hover, #nav a:visited:hover {
+  color: #000;
 }
 
 #nav .facebook-link {

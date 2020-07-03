@@ -1,0 +1,13 @@
+@media only screen and (max-width: 400px) {
+  nav {
+    width: 400px !important;
+  }
+
+  #page-header {
+    padding: 100px 0;
+  }
+
+  #cover-link img{
+    width: 375px;
+  }
+}
