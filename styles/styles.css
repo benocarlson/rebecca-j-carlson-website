@@ -198,10 +198,6 @@ body {
   width: 100%;
 }
 
-#signings h2 {
-  text-align: left;
-}
-
 #signings img {
   width: 50%;
   margin: auto;
@@ -328,5 +324,5 @@ body {
 }
 
 .hidden {
-  visibility: hidden;
+  display: none;
 }

@@ -50,9 +50,81 @@
 
   #reviews {
     margin-top: 50px;
+    padding: 20px;
+  }
+
+  #reviews .review {
+    font-size: 1.2em;
+    border-bottom: 1px solid #DAD299;
+  }
+
+  .review-column {
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid #DAD299;
+    border-radius: 5px;
+  }
+
+  .review-link {
+    padding-top: 10px;
+  }
+
+  .review-grid {
+    flex-direction: column;
+  }
+
+  .amazon-review {
+    order: 1;
+  }
+
+  .goodreads-review {
+    order: 2;
+  }
+
+  #reviews-amazon-link {
+    order: 3;
   }
 
   #review-cover-link img {
-    width: 50%;
+    width: 75%;
+  }
+
+  #get-the-book {
+    margin-top: 10px;
+  }
+
+  #events {
+    margin-top: 50px;
+  }
+
+  .event {
+    padding: 30px;
+  }
+
+  #classes h4 {
+    margin-top: 20px;
+  }
+
+  #signings .caption {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .signings-email {
+    margin-top: 30px;
+  }
+
+  #contact {
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 1.3em;
+  }
+
+  #contact-links {
+    flex-direction: column;
+  }
+  
+  #footer {
+    padding: 5px;
   }
 }
