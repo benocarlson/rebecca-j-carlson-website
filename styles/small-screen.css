@@ -1,13 +1,58 @@
 @media only screen and (max-width: 400px) {
-  nav {
-    width: 400px !important;
+  #nav {
+    width: 100%;
   }
 
   #page-header {
     padding: 100px 0;
   }
 
-  #cover-link img{
-    width: 375px;
+  #amazon-nav {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  #cover-link img {
+    width: 100%;
+  }
+
+  #buy-now {
+    padding: 20px 0;
+  }
+
+  #ad-quote {
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+  }
+
+  #about {
+    margin-top: 50px;
+  }
+
+  #about-img {
+    overflow: hidden;
+    width: 50vw;
+    height: 11em;
+    float: left;
+    margin-right: 20px;
+  }
+
+  #about-img img {
+    width: 150%;
+    position: relative;
+    right: 20%;
+  }
+
+  #about-txt {
+    padding: 20px;
+  }
+
+  #reviews {
+    margin-top: 50px;
+  }
+
+  #review-cover-link img {
+    width: 50%;
   }
 }
