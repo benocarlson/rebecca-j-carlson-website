@@ -1,5 +1,9 @@
 @media only screen and (min-width: 961px) {
 
+    #nav {
+        position: fixed;
+    }
+
     #page-header {
         padding: 200px 0;
     }
@@ -172,10 +176,6 @@
 
     #classes-email {
         margin-top: 40px;
-    }
-    
-    #signings h2 {
-        text-align: left;
     }
 
     .signings-column {

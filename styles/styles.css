@@ -187,14 +187,15 @@ body {
   color: #FFFCEC;
 }
 
-.signings-column h4, .signings-column p {
-  text-align: left;
+#signings .caption {
+  text-align: center;
+  margin: 0 auto;
 }
 
 #signings-columns {
   display: flex;
-  justify-content: space-between;
-  align-items: top;
+  justify-content: space-around;
+  align-items: center;
   width: 100%;
 }
 

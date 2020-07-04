@@ -1,3 +1,185 @@
-@media only screen and (min-width: 421px) and (max-width: 960px) {
+@media only screen and (min-width: 651px) and (max-width: 960px) {
+
+  #nav {
+    position: fixed;
+  }
+
+  #page-header {
+    padding: 150px;
+  }
+
+  #amazon-nav {
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 80px;
+  }
+
+  #cover-link {
+    position: absolute;
+  }
+
+  #cover-link a {
+    float: left;
+  }
+
+  #cover-link img{
+    width: 300px;
+  }
+
+  #buy-now {
+    margin-left: 50vw;
+  }
+
+  #buy-now p {
+    font-size: 1.5em;
+    margin: 20px;
+  }
+
+  #buy-now h3 {
+    font-size: 2em;
+  }
+
+  #ad-quote {
+    margin: 10%;
+    padding: 20px;
+    font-size: 1.2em;
+  }
+
+  #about-img {
+    overflow: hidden;
+    width: 30vw;
+    float: left;
+    margin: 25px;
+  }
+
+  #about-img img {
+    width: 150%;
+    position: relative;
+    right: 20%;
+  }
+
+  #about-txt {
+    padding: 20px;
+    font-size: 1.2em;
+  }
+
+  #reviews {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 30px;
+  }
+
+  .section-header {
+    margin-bottom: 50px;
+  }
+
+  .section-header h2 {
+    font-size: 2em;
+  }
+
+  .section-header h3 {
+    font-size: 2em;
+  }
+
+  .review-grid {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .review {
+    font-size: 1.2em;
+    text-align: justify
+  }
+
+  .amazon-review {
+    order: 1;
+    width: 45%;
+  }
+
+  .goodreads-review {
+    order: 2;
+    width: 45%;
+  }
+
+  #reviews-amazon-link {
+    order: 3;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  #reviews h4 {
+    font-size: 1.5em;
+    font-weight: normal;
+  }
+
+  .review .attribution {
+    margin-top: 1em;
+  }
+
+  .review-link {
+    margin-bottom: 20px;
+  }
   
+  #review-cover-link img {
+    width: 50%;
+  }
+  
+  #get-the-book {
+    margin-top: 50px;
+  }
+
+  #events {
+    margin-top: 50px;
+  }
+
+  .event {
+    padding: 50px;
+  }
+
+  #classes h4 {
+    margin-top: 20px;
+  }
+
+  .signings-email {
+    margin-top: 30px;
+  }
+
+  #contact {
+    padding: 50px;
+    margin-top: 50px;
+  }
+
+  #contact-links > div {
+    width: 50%;
+  }
+  
+  #contact p {
+    font-size: 1.4em;
+  }
+
+  #info {
+    margin-bottom: 50px;
+  }
+
+  #subscribe a {
+    width: 250px;
+    margin: 0 auto;
+  }
+  
+  #visit-pages a {
+    width: 100px;
+    margin: 0 auto;
+  }
+  
+  .visit-link {
+    margin: 30px 20px;
+  }
+
+  #footer {
+    padding: 10px 50px;
+    margin-bottom: 75px;
+  }
 }
