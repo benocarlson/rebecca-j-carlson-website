@@ -226,12 +226,16 @@ body {
   width: 100%;
 }
 
+#info a, #info a:visited {
+  color: black;
+}
+
 #contact-links {
   display: flex;
   justify-content: space-between;
 }
 
-#contact a {
+#contact-links a {
   display: block;
   padding: 10px;
 }
@@ -325,4 +329,8 @@ body {
 
 .hidden {
   display: none;
+}
+
+.mailto {
+  text-decoration: underline;
 }

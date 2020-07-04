@@ -1,4 +1,4 @@
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 420px) {
   #nav {
     width: 100%;
   }
@@ -38,6 +38,15 @@
     margin-right: 20px;
   }
 
+  #about-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    height: 150px;
+    margin-bottom: 10px;
+  }
+
   #about-img img {
     width: 150%;
     position: relative;
@@ -46,6 +55,7 @@
 
   #about-txt {
     padding: 20px;
+    font-size: 1.2em;
   }
 
   #reviews {

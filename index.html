@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/small-screen.css">
     <link rel="stylesheet" href="styles/large-screen.css">
+    <link rel="stylesheet" href="styles/medium-screen.css">
     <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/13e45f4d6f60b2fcc1ec6c54d/086515f47137310177afab8d6.js");</script>
   </head>
   <body>
@@ -64,8 +65,10 @@
             <img src="images/rjcarlson.jpg"/>
           </div>
           <div id="about-txt" class="pale-gold dark-brown-bg">
-            <h2>ABOUT THE AUTHOR</h2>
-            <h3 class="gold">_______</h2>
+            <div id="about-header">
+              <h2>ABOUT THE AUTHOR</h2>
+              <h3 class="gold">_______</h3>
+            </div>
             <p>
               Rebecca J. Carlson lives on the North Shore of Oahu with her husband, 
               two youngest sons, one rabbit, one turtle, two parakeets, a lovebird, 
@@ -157,7 +160,7 @@
               </p>
               <p id="classes-email">
                 Contact me at
-                <a href="mailto:rjhcarlson@gmail.com?subject=Hi Rebecca J. Carlson, I'd like to know more about your creative writing classes!"
+                <a class="mailto" href="mailto:rjhcarlson@gmail.com?subject=Hi Rebecca J. Carlson, I'd like to know more about your creative writing classes!"
                     data-content="rjhcarlson@gmail.com" data-type="mail">rjhcarlson@gmail.com</a>
                 for more information.
               </p>
@@ -186,7 +189,7 @@
               </div>
               <p class="signings-email">
                 Would you like to order signed copies? Please contact me at
-                <a href="mailto:rjhcarlson@gmail.com?subject=Hi Rebecca J. Carlson, I'd like to get a signed copy of your book!" 
+                <a class="mailto" href="mailto:rjhcarlson@gmail.com?subject=Hi Rebecca J. Carlson, I'd like to get a signed copy of your book!" 
                     data-content="rjhcarlson@gmail.com" data-type="mail">rjhcarlson@gmail.com</a>
                 for availability and shipping rates.
               </p>
@@ -203,7 +206,7 @@
                   </p>
                   <p>
                     Contact me at
-                    <a href="mailto:rjhcarlson@gmail.com?subject=Hi Rebecca J. Carlson! We'd like to meet you in person." data-content="rjhcarlson@gmail.com" data-type="mail">
+                    <a class="mailto" href="mailto:rjhcarlson@gmail.com?subject=Hi Rebecca J. Carlson! We'd like to meet you in person." data-content="rjhcarlson@gmail.com" data-type="mail">
                       rjhcarlson@gmail.com
                     </a>
                   </p>
@@ -211,7 +214,8 @@
                 <div class="visits-column-2">
                   <img src="images/school-visit.jpg"/>
                   <p class="off-white">
-                    Laie Elementary School Library February 2020
+                    Laie Elementary School <br/>
+                    February 2020
                   </p>
                 </div>
               </div>
@@ -220,7 +224,11 @@
         </div> <!-- end events -->
         <div id="contact" class="off-white-bg">
           <div id="info">
-            <p>Email: rjcarlson@gmail.com</p>
+            <p>Email:
+              <a class="mailto" href="mailto:rjhcarlson@gmail.com" data-content="rjhcarlson@gmail.com" data-type="mail">
+                rjhcarlson@gmail.com
+              </a>
+            </p>
           </div>
           <div id="contact-links">
             <div id="subscribe">
