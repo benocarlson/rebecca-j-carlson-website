@@ -124,7 +124,7 @@
   }
   
   #review-cover-link img {
-    width: 50%;
+    width: 350px;
   }
   
   #get-the-book {
@@ -137,6 +137,19 @@
 
   .event {
     padding: 50px;
+    font-size: 1.2em;
+  }
+
+  #signings img {
+    width: 200px;
+  }
+
+  .visits-column-1 {
+    max-width: 350px;
+  }
+
+  .visits-column-2 {
+    max-width: 40%;
   }
 
   #classes h4 {

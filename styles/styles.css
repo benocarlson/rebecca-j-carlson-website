@@ -51,6 +51,15 @@ body {
   margin-right: 30px;
 }
 
+.anchor-base {
+  position: relative;
+}
+
+.anchor {
+  position: absolute;
+  bottom: 50px;
+}
+
 #buy-now h3 {
   color: #EDE8C9;
   font-weight: normal;
@@ -210,6 +219,7 @@ body {
 
 #visits-columns {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .visits-column-1 {
@@ -217,6 +227,10 @@ body {
   flex-direction: column;
   justify-content: space-between;
   text-align: left;
+}
+
+.visits-column-1 p {
+  margin-top: 50px;
 }
 
 .visits-column-1 a, .visits-column-1 a:visited {

@@ -109,6 +109,7 @@
 
   .event {
     padding: 30px;
+    font-size: 1.1em;
   }
 
   #classes h4 {
@@ -132,5 +133,9 @@
   #footer {
     padding: 5px;
     margin-bottom: 50px;
+  }
+
+  .anchor {
+    bottom: 0;
   }
 }
