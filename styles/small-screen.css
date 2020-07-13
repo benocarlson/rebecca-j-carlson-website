@@ -3,6 +3,20 @@
     width: 100%;
   }
 
+  #banner {
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  #banner img {
+    max-width: 90%;
+  }
+
+  #banner p {
+    text-align: center;
+    font-size: 1.1em;
+  }
+
   #page-header {
     padding: 100px 0;
   }

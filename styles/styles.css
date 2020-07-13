@@ -51,6 +51,27 @@ body {
   margin-right: 30px;
 }
 
+#page {
+  padding-top: 50px;
+}
+
+#banner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  background-color: #FDD017;
+}
+
+#banner a, #banner a:visited {
+  color: black;
+  text-decoration: underline;
+}
+
+#banner p {
+  font-weight: bold;
+}
+
 .anchor-base {
   position: relative;
 }

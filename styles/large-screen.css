@@ -4,6 +4,15 @@
         position: fixed;
     }
 
+    #banner {
+        margin: 20px;
+    }
+
+    #banner p {
+        font-size: 1.5em;
+        margin-left: 20px;
+    }
+
     #page-header {
         padding: 200px 0;
     }
