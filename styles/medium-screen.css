@@ -4,6 +4,19 @@
     position: fixed;
   }
 
+  #banner {
+    padding: 10px;
+  }
+
+  #banner img {
+    width: 30vw;
+  }
+
+  #banner p {
+    font-size: 1.2em;
+    margin-left: 10px;
+  }
+
   #page-header {
     padding: 150px;
   }
