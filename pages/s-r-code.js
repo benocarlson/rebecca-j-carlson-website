@@ -4,10 +4,10 @@ document.getElementById("password-form").addEventListener("submit", function(eve
   if (input === "") return;
 
   // Replace the value in the quotes with the correct password
-  if (input === "correctPassword") {
+  if (input === "imagination") {
     document.getElementById("message").innerHTML = "Correct! You may now download the bonus material:";
     document.getElementById("download").disabled = false;
   } else {
-    document.getElementById("message").innerHTML = "That is not the correct password.";
+    document.getElementById("message").innerHTML = "That is not the correct password. Note - all letters are lowercase.";
   }
 })
