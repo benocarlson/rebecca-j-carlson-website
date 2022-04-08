@@ -3,6 +3,10 @@
     width: 100%;
   }
 
+  .anchor {
+    top: 50px;
+  }
+
   #banner {
     padding: 10px;
     flex-direction: column;
@@ -21,12 +25,12 @@
     padding: 100px 0;
   }
 
-  #amazon-nav {
+  .amazon-nav {
     width: 75%;
     margin: 0 auto;
   }
 
-  #cover-link img {
+  .cover-link img {
     width: 100%;
   }
 
@@ -72,47 +76,6 @@
     font-size: 1.2em;
   }
 
-  #reviews {
-    margin-top: 50px;
-    padding: 20px;
-  }
-
-  #reviews .review {
-    font-size: 1.2em;
-    border-bottom: 1px solid #DAD299;
-  }
-
-  .review-column {
-    margin-bottom: 30px;
-    padding: 10px;
-    border: 1px solid #DAD299;
-    border-radius: 5px;
-  }
-
-  .review-link {
-    padding-top: 10px;
-  }
-
-  .review-grid {
-    flex-direction: column;
-  }
-
-  .amazon-review {
-    order: 1;
-  }
-
-  .goodreads-review {
-    order: 2;
-  }
-
-  #reviews-amazon-link {
-    order: 3;
-  }
-
-  #review-cover-link img {
-    width: 75%;
-  }
-
   #get-the-book {
     margin-top: 10px;
   }
@@ -127,6 +90,18 @@
   }
 
   #classes h4 {
+    margin-top: 20px;
+  }
+
+  #signings-columns {
+    flex-direction: column;
+  }
+
+  .signings-column {
+    margin-top: 15px;
+  }
+
+  #events h3 {
     margin-top: 20px;
   }
 

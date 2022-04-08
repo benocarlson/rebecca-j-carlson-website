@@ -21,7 +21,7 @@
     padding: 150px;
   }
 
-  #amazon-nav {
+  .amazon-nav {
     position: relative;
     margin-top: 100px;
     display: flex;
@@ -30,15 +30,15 @@
     padding: 80px;
   }
 
-  #cover-link {
+  .cover-link {
     position: absolute;
   }
 
-  #cover-link a {
+  .cover-link a {
     float: left;
   }
 
-  #cover-link img{
+  .cover-link img{
     width: 300px;
   }
 
@@ -61,6 +61,14 @@
     font-size: 1.2em;
   }
 
+  #about-anchor {
+    top: 100px;
+  }
+
+  #about {
+    margin-top: 150px;
+  }
+
   #about-img {
     overflow: hidden;
     width: 30vw;
@@ -78,13 +86,6 @@
     padding: 20px;
     font-size: 1.2em;
   }
-
-  #reviews {
-    margin-top: 50px;
-    margin-bottom: 100px;
-    padding: 30px;
-  }
-
   .section-header {
     margin-bottom: 50px;
   }
@@ -96,49 +97,6 @@
   .section-header h3 {
     font-size: 2em;
   }
-
-  .review-grid {
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .review {
-    font-size: 1.2em;
-    text-align: justify
-  }
-
-  .amazon-review {
-    order: 1;
-    width: 45%;
-  }
-
-  .goodreads-review {
-    order: 2;
-    width: 45%;
-  }
-
-  #reviews-amazon-link {
-    order: 3;
-    width: 100%;
-    margin-top: 50px;
-  }
-
-  #reviews h4 {
-    font-size: 1.5em;
-    font-weight: normal;
-  }
-
-  .review .attribution {
-    margin-top: 1em;
-  }
-
-  .review-link {
-    margin-bottom: 20px;
-  }
-  
-  #review-cover-link img {
-    width: 350px;
-  }
   
   #get-the-book {
     margin-top: 50px;
@@ -147,6 +105,12 @@
   #events {
     margin-top: 50px;
   }
+
+  #events h3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
 
   .event {
     padding: 50px;
